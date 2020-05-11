@@ -1,0 +1,46 @@
+body {
+    background-image:
+      url("https://www.thunderwave.com.br/wp-content/uploads/2015/11/Especial-Matrix.png");
+    filter:blur(1);
+    font-family: verdana;
+    }
+
+
+.menu {
+    background-color: lightgreen;
+  }
+  
+.menu li {
+    list-style: circle ;
+  }
+  
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+a {
+    text-decoration: none;
+    text-decoration: double;
+    color: black;
+    
+  }
+  
+a:hover{
+    color:red;
+    text-decoration: underline;
+  }
+  
+.subtitle,
+.title {
+    color: lightgrey;
+    text-align: center;
+  }
+  
+.subtitle {
+    font-style: italic;
+    font-family: timesnewroman;
+  }
+  
+  
+  
