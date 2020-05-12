@@ -1,10 +1,10 @@
 body {
     background-image:
       url("https://www.thunderwave.com.br/wp-content/uploads/2015/11/Especial-Matrix.png");
-    backdrop-filter: blur(2px);
+
     font-family: verdana;
     }
-
+backdrop-filter: blur(2px);
 
 .menu {
     background-color: lightgreen;
