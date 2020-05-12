@@ -1,18 +1,17 @@
 body {
-    background-image:
-      url("https://www.thunderwave.com.br/wp-content/uploads/2015/11/Especial-Matrix.png");
-
-    font-family: verdana;
+    background-image:url("https://www.thunderwave.com.br/wp-content/uploads/2015/11/Especial-Matrix.png");
+    backdrop-filter: blur(3px);
+    font-family: initial;
+    height: 100vh;
     }
-backdrop-filter: blur(2px);
 
 .menu {
-    background-color: lightgreen;
+    background-color: lightgreen ;
   }
   
 .menu li {
-    list-style: circle ;
-  }
+    list-style: square;
+      }
   
 .menu ul {
     display: flex;
@@ -21,26 +20,28 @@ backdrop-filter: blur(2px);
   
 a {
     text-decoration: none;
-    text-decoration: double;
+    
     color: black;
     
   }
   
 a:hover{
-    color:red;
-    text-decoration: underline;
+    color:white;
+    text-decoration: bold;
   }
   
 .subtitle,
 .title {
-    color: lightgrey;
+    color:white;
     text-align: center;
   }
   
 .subtitle {
-    font-style: italic;
-    font-family: 'Times New Roman';
+    
+    font-family: inherit;
   }
+  
+  
   
   
   
